@@ -1,6 +1,8 @@
 # README
 
-![alt text](https://github.com/Alexei-Lipov/h-mgcnn/blob/main/H-MGCNN_Architecture.png?raw=true)
+This software accompanies the 2021 FICC paper entitled "A Multiscale Graph Convolutional Neural Network using Hierarchical Clustering". A diagram of the architecture is shown below (for more details, see the paper):
+
+![H-MGCNN Architecture](https://github.com/Alexei-Lipov/h-mgcnn/blob/main/H-MGCNN_Architecture.png?raw=true)
 
 ## Dependencies
 
@@ -44,3 +46,6 @@
 * "MGCNN_Depth_4.py" - Loads "g_list.gpickle" generated from "Girvan_Newman_Modularity.py". Executes architecture as described in the report. Returns the accuracy. To change the number of scales, alter the num_steps variable on line 16. To change the number of hidden nodes, alter the second argument of nn.Linear on line 88 and the first argument of nn.Linear on line 89. This is the four graph convolutional layer version. 
 
 * "MGCNN_Depth_5.py" - Loads "g_list.gpickle" generated from "Girvan_Newman_Modularity.py". Executes architecture as described in the report. Returns the accuracy. To change the number of scales, alter the num_steps variable on line 16. To change the number of hidden nodes, alter the second argument of nn.Linear on line 88 and the first argument of nn.Linear on line 89. This is the five graph convolutional layer version. 
+
+## Contact
+If there are any questions please contact al822[at]cantab.ac.uk.
